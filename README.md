@@ -14,4 +14,12 @@ I'm a Backend Developer. studying computer engineering at faculty of electronic 
 </p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mahmoud921&show_icons=true&locale=en&layout=compact" alt="mahmoud921" /></p>
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+
+<div align="center">
+  
+![Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xEbrahim&theme=monokai)
+  
+</div>
+
 
