@@ -16,10 +16,5 @@ I'm a Backend Developer. studying computer engineering at faculty of electronic 
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
-<div align="center">
-  
-![Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xEbrahim&theme=monokai)
-  
-</div>
 
 
