@@ -9,7 +9,7 @@ I'm a Backend Developer. studying computer engineering at faculty of electronic 
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cs,cpp,css,django,dotnet,git,github,html,py,vscode" />
+    <img src="https://skillicons.dev/icons?i=cs,cpp,css,django,dotnet,github,html,py,vscode,sql" />
   </a>
 </p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mahmoud921&show_icons=true&locale=en&layout=compact" alt="mahmoud921" /></p>
