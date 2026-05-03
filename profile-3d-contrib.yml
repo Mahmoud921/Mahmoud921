@@ -1,8 +1,8 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
+  schedule:
+    - cron: "0 18 * * *"   # 18:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -12,17 +12,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+
     steps:
       - uses: actions/checkout@v5
+
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secret.PROFILE_SECRET }}
-          USERNAME: ${{ mahmoud921 }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_SECRET }}     # ← صح
+          USERNAME: mahmoud921                            # ← صح
+
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add -A .
-          if git commit -m "generated"; then
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update 3D contribution graph"
             git push
           fi
