@@ -36,3 +36,4 @@ I'm currently ***seeking a Backend Developer role*** where I can contribute and 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mahmoud921&theme=default)
 </br>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoud921&layout=compact)
+![](./profile-3d-contrib/profile-green-animate.svg)
