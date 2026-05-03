@@ -18,8 +18,8 @@ jobs:
 
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.PROFILE_SECRET }}     # ← صح
-          USERNAME: mahmoud921                            # ← صح
+          GITHUB_TOKEN: ${{ secrets.PROFILE_SECRET }}   
+          USERNAME: mahmoud921                          
 
       - name: Commit & Push
         run: |
