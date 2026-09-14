@@ -34,7 +34,6 @@ I'm a Computer Science graduate from the Faculty of Electronic Engineering, Meno
 
 - System Design
 - Angular
-- Docker
 
 ---
 
@@ -63,6 +62,4 @@ I'm a Computer Science graduate from the Faculty of Electronic Engineering, Meno
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mahmoud921&theme=default)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoud921&layout=compact)
-![](./profile-3d-contrib/profile-green-animate.svg)
 
